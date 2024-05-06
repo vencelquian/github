@@ -1,13 +1,16 @@
+import backgroundimg from '../images/mainbg.jpg';
 
-
-const hero = () => {
+const Hero = () => {
     return (
-        <section className="bg-black flex justify-around items-center p-10 space-x-10 lg:flex-row sm:flex-col ssm:space-y-10 text-white">
-            <div className="text-3xl">
-                <h1 className="text-orange-500 font-sans">"Making Every Sip a Step in the Right Direction!"</h1>
-            </div>
-        </section>
+        <>
+        <div className='backgroundimage'>
+            <img src={backgroundimg} alt="bgi" />
+            <div className='relative w-100 h-100 flex justify-center'>
+                <h1>Making Every Sip A Step In The Right Direction!</h1></div>
+        </div>
+
+        </>
     )
 }
 
-export default hero
+export default Hero;

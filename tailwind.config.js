@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
 module.exports = {
   content: [
     "./index.html",
@@ -11,8 +12,15 @@ module.exports = {
       md:'768px',
       lg:'1024px',
     },
+    colors: {
+      'orange': '#f28705',
+      'neutral': '#171717',
+      'black': '#000000',
+      'white': '#ffffff',
+    },
     extend: {},
   },
+
   plugins: [],
 }
 
