@@ -9,6 +9,7 @@ const nav = () => {
                     <a href="#" className='hover:text-orange px-5 py-2 text-xl'>
                     <img className="object-scale-down h-50 w-60"src={Logo} alt="StepBigBrew Logo"/>
                     </a>
+                    
 
                 </div>
                 <div className="space-x-12">
@@ -18,9 +19,8 @@ const nav = () => {
                         <a href="#" className="hover:text-orange px-5 [font-family:'Inter-Regular',Helvetica] font-normal text-[#fff7f7] text-[24px] tracking-[0] leading-[normal]">Menu</a>
                         <a href="#" className="hover:text-orange px-5 [font-family:'Inter-Regular',Helvetica] font-normal text-[#fff7f7] text-[24px] tracking-[0] leading-[normal] ">Contact Us</a>
                     </div>
-                </div>
+                </div> 
         </div>
-
         </>
     )
 }
